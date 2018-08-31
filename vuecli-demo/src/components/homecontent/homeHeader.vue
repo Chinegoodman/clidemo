@@ -16,11 +16,8 @@ export default {
 <style lang="less" scoped>
     @import url('./../../../common/css/publick.less');
     .header{
-        background: @bodybgcolor;
+        background: @bodyheaderbgcolor;
         .headerwrap{
-            margin:0 auto;
-            width: 90%;
-            min-width: @min-width;
             height: @headerheight;
             line-height: @headerheight;
             img{

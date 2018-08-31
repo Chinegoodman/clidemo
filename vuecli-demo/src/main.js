@@ -4,6 +4,11 @@ import Vue from 'vue'
 import App from './App'
 import router from './router'
 
+// 自定义全局组件
+import "./common/psf-changepage"
+// 自定义全局事件
+import "./../common/js/scroll"
+
 Vue.config.productionTip = false
 
 /* eslint-disable no-new */

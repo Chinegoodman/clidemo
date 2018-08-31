@@ -1,8 +1,8 @@
 /*
  * @Author: xiaopang 
  * @Date: 2018-08-30 13:59:29 
- * @Last Modified by:   xiaopang 
- * @Last Modified time: 2018-08-30 13:59:29 
+ * @Last Modified by: xiaopang
+ * @Last Modified time: 2018-08-31 10:39:06
  */
 
 @charset "utf-8";
@@ -94,6 +94,34 @@ a:active {
 
 
 /*==========================Reset_End===========================*/
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px
+}
+
+::-webkit-scrollbar-button {
+    height: 0;
+    width: 0
+}
+
+::-webkit-scrollbar-track {
+    background-color: #f1f1f1
+}
+
+::-webkit-scrollbar-thumb {
+    background: #ccc
+}
+
+* {
+    scrollbar-base-color: #ccc;
+    scrollbar-3dlight-color: #ccc;
+    scrollbar-highlight-color: #ccc;
+    scrollbar-track-color: #f1f1f1;
+    scrollbar-arrow-color: #000;
+    scrollbar-shadow-color: #ccc;
+    scrollbar-dark-shadow-color: #ccc;
+}
 
 
 /*利用after伪类清除浮动*/

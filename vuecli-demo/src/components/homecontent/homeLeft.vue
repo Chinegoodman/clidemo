@@ -1,5 +1,5 @@
 <template>
-    <div class="homeleft">
+    <div class="homeleft scrollbarreset">
         <p>left</p>
         <p>path:{{$route.path}}</p>
         <p>fullpath:{{$route.fullpath}}</p>
@@ -25,5 +25,8 @@ export default {
         position: fixed;
         left: 5px;
         bottom: 10%;
+
+        height: 50px;
+        overflow-y: scroll;
     }
 </style>

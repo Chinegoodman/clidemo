@@ -15,11 +15,8 @@ export default {
 <style lang="less" scoped>
     @import url('./../../../common/css/publick.less');
     .footer{
-        background: @bodybgcolor;
+        background: @bodyfooterbgcolor;
         .footerwrap{
-            margin:0 auto;
-            width: 90%;
-            min-width: @min-width;
             height: @footerheight;
         }
     }

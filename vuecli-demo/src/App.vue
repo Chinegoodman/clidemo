@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <home-header></home-header>
-    <home-wrap></home-wrap>
+    <home-wrap v-scrollHeight="275"></home-wrap>
     <home-left></home-left>
     <home-right></home-right>
     <home-footer></home-footer>
@@ -26,6 +26,9 @@ export default {
 
 <style lang="less">
 @import url('./../common/css/publick.less');
+body{
+  background: @bodybgcolor;
+}
 #app {
   font-family: 'Avenir', Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
@@ -35,10 +38,10 @@ export default {
   margin-top: 60px; */
   &>*{
     // box-shadow: 0 0 5px #ccc;
+          
   }
+  margin:0 auto;
+  width: 90%;
+  min-width: @min-width;
 }
-// .router-link-exact-active{
-//   background: #ccc;
-//   color: #fff;
-// }
 </style>
