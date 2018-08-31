@@ -5,34 +5,9 @@
             <hr>
             <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
             <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
-            <psf-changepage class="changepagewrap" :pagesallnumber="pagedata.pagesallnumber" :currentpagenumber="pagedata.defaultpagenumber" @changenumber="pagenumberchange"></psf-changepage>
             <hr>
         </div>
+        <router-view></router-view>
     </div>
 </template>
 
